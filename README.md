@@ -23,15 +23,18 @@ The objective is to estimate potential portfolio losses and evaluate model perfo
 ### Historical VaR
 - Calculated daily portfolio returns
 - Estimated 95% VaR using historical return distribution
+- ![Historical VaR](images/historical_var.png)
 
 ### Monte Carlo VaR
 - Simulated 10,000 portfolio return scenarios
 - Assumed normally distributed returns
+- ![Monte Carlo](images/monte_carlo.png)
 
 ### VaR Backtesting
 - Implemented rolling 100-day VaR estimation
 - Compared predicted VaR with actual returns
 - Calculated exception rate
+- ![Backtesting](images/backtesting.png)
 
 ---
 
