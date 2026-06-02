@@ -41,13 +41,10 @@ The objective is to estimate potential portfolio losses and evaluate model perfo
 ## Results
 
 The model successfully:
-
-- Estimated portfolio downside risk
-- Identified VaR exceptions
-- Visualized changing market risk over time
-
-The observed exception rate was close to the theoretical 5% level.
-
+- Estimated portfolio downside risk using three complementary methods
+- Achieved backtesting exception rate of 5.0% — matching the theoretical 95% 
+  confidence level exactly
+- Identified and visualised VaR breach events across 400+ trading days
 ---
 
 ## Tools
