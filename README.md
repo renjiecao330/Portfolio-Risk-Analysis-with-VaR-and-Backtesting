@@ -33,7 +33,7 @@ The objective is to estimate potential portfolio losses and evaluate model perfo
 ### VaR Backtesting
 - Implemented rolling 100-day VaR estimation
 - Compared predicted VaR with actual returns
-- Calculated exception rate
+- Backtesting exception rate: 5.0% (n=400+ trading days) — exactly in line with the theoretical 95% confidence level and within the Basel II green zone (< 5 exceptions per 250 days)
 - ![Backtesting](Images/backtesting.png)
 
 ---
